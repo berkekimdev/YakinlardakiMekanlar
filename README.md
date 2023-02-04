@@ -60,7 +60,7 @@ Aşağıdaki komut ile API testini çalıştırabilirsiniz.
 
 
 # Ekran Görüntüleri
-![image](pictures\adminanasayfasi.PNG)
+![image](YakinlardakiMekanlar/pictures/adminanasayfasi.PNG)
 
 ![image](pictures\kayitekrani.PNG)
 
