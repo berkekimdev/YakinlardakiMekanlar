@@ -1,0 +1,38 @@
+extends layout 
+include fonksiyonlar/yildiz
+
+block content
+  #banner.page-header 
+    .row 
+      .col-lg-6
+        h1 
+          | Admin Sayfası
+          small &nbsp; Mekanları Düzenle!
+
+  .row 
+  .error=mesaj
+    each mekan in mekanlar
+      .row.list-group 
+      .col-xs-12.col-sm-12 
+        .col-sm-12.list-group-item
+          span.badge.pull-right.badge-default #{mekan.mesafe}
+          h4 
+            -var mekanid=mekan._id
+            a(href='/mekan/'+mekanid) #{mekan.ad} 
+            smal &nbsp;
+            +puanOlustur(mekan.puan)
+            -var id=mekan._id
+          a.btn.btn-primary.pull-right.badge-default(href="/mekansil/" + id) Sil
+          b.btn.btn-light.pull-right.badge-default()   
+            
+          a.btn.btn-info.pull-right.badge-default(href="/mekanguncelle/" + id) Güncelle 
+
+          p.address #{mekan.adres}
+          p
+            each imkan in mekan.imkanlar
+              span.label.label-warning #{imkan}
+              | &nbsp;
+  .row
+    p
+    a.btn.btn-success.pull-right.badge-default(href="/yenimekanekle") Yeni Mekan
+            
