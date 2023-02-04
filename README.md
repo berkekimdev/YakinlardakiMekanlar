@@ -62,19 +62,19 @@ Aşağıdaki komut ile API testini çalıştırabilirsiniz.
 # Ekran Görüntüleri
 ![](pictures/adminanasayfasi.PNG)
 
-![](pictures\kayitekrani.PNG)
+![](pictures/kayitekrani.PNG)
 
-![](pictures\getmekan.png)
+![](pictures/getmekan.png)
 
-![](pictures\getadres.png)
+![](pictures/getadres.png)
 
-![](pictures\güncelleme.PNG)
+![](pictures/güncelleme.PNG)
 
-![](pictures\normalsayfa.PNG)
+![](pictures/normalsayfa.PNG)
 
-![](pictures\testcollection.png)
+![](pictures/testcollection.png)
 
-![](pictures\testnpmtest.png)
+![](pictures/testnpmtest.png)
 
 
 
